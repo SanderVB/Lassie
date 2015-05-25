@@ -31,15 +31,15 @@ De belangrijkste bestanden voor de lassie app zijn de volgende:
   bedoeling dat alles wat gemaakt wordt is besproken en dus niet ter plekke uit je duim gezogen is.
 
 ## FAQ
- ### Hoe test ik de app?
+### Hoe test ik de app?
  Om de app te testen, moet je hem afspelen op een zogenaamde emulator. De computer simuleert een telefoon, waardoor de app
  afgespeeld kan worden. laadt het project en druk op shift + f10. Met het creëeren van de app is de Nexus 5 met API 22
  gebruikt, maar je bent vrij om een ander apparaat te gebruiken. Zorg er wel voor dat je voldoende RAM geheugen beschikbaar
  hebt (maar dat geeft hij vanzelf aan als dast niet zo is).
  
- ### Wat moet ik doen?
+### Wat moet ik doen?
  Dit wordt afgesproken in de taakverdeling. Als dit niet duidelijk is -> vraag Sander.
  
- ### Hoe koppel ik Android Studio aan de Github repo?
+### Hoe koppel ik Android Studio aan de Github repo?
  Klik op VCS -> Enable version Control Integration -> Git. Om de files te updaten, klik op VCS -> Update project. Om te 
  comitten, klik op VCS -> Commit changes.
