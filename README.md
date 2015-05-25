@@ -3,6 +3,12 @@ Dit is de officiële lassie app die mensen helpt met het zoeken naar hun huisdie
 waar staat wat wat is en hoe de app in elkaar zit. Ook worden er een paar standaarden beschreven die ten alle tijden
 gevolgd moeten worden. Dit is in verband met consistentie van de lay-out.
 
+## Waar begin ik?
+Je begint met het downloaden van Android Studio (https://developer.android.com/sdk/index.html), waarna je meteen Java SE
+Development Kit kan downloaden (http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html). 
+Kloon (lees: download) de repo en importeer hem in Android Studio (File -> New -> Import project). Als het goed is, is het
+project nu geopend.
+
 ## De belangrijkste bestanden
 De belangrijkste bestanden voor de lassie app zijn de volgende:
   * Alle .Java bestanden voor de activiteiten (b.v. Home.Java). Deze worden automatisch verzameld in Lassie/app/src/main/java/lassie.lassie
@@ -23,3 +29,17 @@ De belangrijkste bestanden voor de lassie app zijn de volgende:
   te worden tussen alle regels code.
   * Kijk naar de panelen voordat je iets maakt. Hierdoor voorkom je dat dat je iets maakt waar niet over is overlegd. Het is de
   bedoeling dat alles wat gemaakt wordt is besproken en dus niet ter plekke uit je duim gezogen is.
+
+## FAQ
+ ### Hoe test ik de app?
+ Om de app te testen, moet je hem afspelen op een zogenaamde emulator. De computer simuleert een telefoon, waardoor de app
+ afgespeeld kan worden. laadt het project en druk op shift + f10. Met het creëeren van de app is de Nexus 5 met API 22
+ gebruikt, maar je bent vrij om een ander apparaat te gebruiken. Zorg er wel voor dat je voldoende RAM geheugen beschikbaar
+ hebt (maar dat geeft hij vanzelf aan als dast niet zo is).
+ 
+ ### Wat moet ik doen?
+ Dit wordt afgesproken in de taakverdeling. Als dit niet duidelijk is -> vraag Sander.
+ 
+ ### Hoe koppel ik Android Studio aan de Github repo?
+ Klik op VCS -> Enable version Control Integration -> Git. Om de files te updaten, klik op VCS -> Update project. Om te 
+ comitten, klik op VCS -> Commit changes.
