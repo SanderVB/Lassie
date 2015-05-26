@@ -18,6 +18,7 @@ De belangrijkste bestanden voor de lassie app zijn de volgende:
   * Strings.xml. Hierin worden ALLE strings opgeslagen die voorkomen in de app. Gebruik dus geen hardcoded tekst, maar
   een verwijzing naar strings.xml door middel van "@string/voorbeeld"
   * Drawawbles. Drawables zijn plaatjes die in de app gebruikt worden. Deze zijn te vinden in Lassie/app/src/res/.
+  * Kies goede namen voor id's en strings. In activity_home.xml is dit bijvoorbeeld "@id/edittext_email" voor de editText van de email. Houdt het dus leesbaar!
   
 ## Enkele guidelines conform design
  * DE BELANGRIJKSTE: CONTROLEER ALTIJD JE CODE VOORDAT JE IETS COMMIT. Als je dit niet doen, gaat iemand anders dus verder met 
