@@ -5,7 +5,7 @@
     android:orientation="horizontal">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button_continue"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -13,125 +13,126 @@
         android:layout_gravity="bottom"
         android:layout_marginBottom="15dp"
         android:background="#ff009688"
+        android:onClick="Continue"
         android:padding="10dp"
         android:text="@string/button_continue" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/edittext_email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/editText2"
-        android:layout_below="@+id/textView5"
+        android:layout_alignStart="@+id/edittext_gebruikersnaam"
+        android:layout_below="@+id/textview_nieuw_account"
         android:layout_marginTop="28dp"
         android:ems="10"
         android:inputType="textEmailAddress"
         android:text="@string/edittext_email" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/edittext_gebruikersnaam"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/editText3"
-        android:layout_alignTop="@+id/textView2"
+        android:layout_alignStart="@+id/edittext_wachtwoord"
+        android:layout_alignTop="@+id/textview_gebruikersnaam"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="@string/edittext_gebruikersnaam" />
 
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/edittext_wachtwoord"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/editText4"
-        android:layout_below="@+id/editText2"
+        android:layout_alignStart="@+id/edittext_herhaal_wachtwoord"
+        android:layout_below="@+id/edittext_gebruikersnaam"
         android:ems="10"
         android:inputType="textPassword" />
 
     <EditText
-        android:id="@+id/editText4"
+        android:id="@+id/edittext_herhaal_wachtwoord"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/button"
-        android:layout_below="@+id/editText3"
+        android:layout_alignStart="@+id/button_continue"
+        android:layout_below="@+id/edittext_wachtwoord"
         android:ems="10"
         android:inputType="textPassword" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textview_email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/textView2"
-        android:layout_alignTop="@+id/editText"
+        android:layout_alignEnd="@+id/textview_gebruikersnaam"
+        android:layout_alignTop="@+id/edittext_email"
         android:text="@string/textview_email"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textSize="18sp" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textview_gebruikersnaam"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/editText"
+        android:layout_below="@+id/edittext_email"
         android:text="@string/textview_gebruikersnaam"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textSize="18sp" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/textview_wachtwoord"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/textView2"
-        android:layout_below="@+id/editText2"
+        android:layout_alignEnd="@+id/textview_gebruikersnaam"
+        android:layout_below="@+id/edittext_gebruikersnaam"
         android:text="@string/textview_wachtwoord"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textSize="18sp" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/textview_herhaal_wachtwoord"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/editText4"
-        android:layout_alignStart="@+id/textView3"
-        android:layout_toStartOf="@+id/editText3"
+        android:layout_alignBottom="@+id/edittext_herhaal_wachtwoord"
+        android:layout_alignStart="@+id/textview_wachtwoord"
+        android:layout_toStartOf="@+id/edittext_wachtwoord"
         android:text="@string/textview_herhaal_wachtwoord"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textSize="18sp" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/imageview_logo"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_alignParentTop="true"
-        android:layout_toEndOf="@+id/textView"
+        android:layout_toEndOf="@+id/textview_email"
         android:contentDescription="Logo"
         android:scaleType="fitXY"
         android:src="@drawable/logo"
         android:textAlignment="center" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/textview_nieuw_account"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/textView"
-        android:layout_below="@+id/imageView"
+        android:layout_alignStart="@+id/textview_email"
+        android:layout_below="@+id/imageview_logo"
         android:text="@string/textview_nieuw_account"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/textview_login_met"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/textView"
-        android:layout_below="@+id/editText4"
+        android:layout_alignStart="@+id/textview_email"
+        android:layout_below="@+id/edittext_herhaal_wachtwoord"
         android:layout_marginBottom="30dp"
         android:layout_marginTop="30dp"
         android:text="@string/textview_login_met"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/imageview_facebook"
         android:layout_width="20dp"
         android:layout_height="20dp"
-        android:layout_alignEnd="@+id/imageView"
+        android:layout_alignEnd="@+id/imageview_logo"
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
         android:layout_marginBottom="87dp"
@@ -142,11 +143,11 @@
         android:textAlignment="center" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/imageview_google"
         android:layout_width="20dp"
         android:layout_height="20dp"
-        android:layout_alignBottom="@+id/textView6"
-        android:layout_alignEnd="@+id/textView5"
+        android:layout_alignBottom="@+id/textview_login_met"
+        android:layout_alignEnd="@+id/textview_nieuw_account"
         android:layout_marginBottom="0dp"
         android:layout_marginEnd="77dp"
         android:contentDescription="@string/imageview_google"
