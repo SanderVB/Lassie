@@ -41,5 +41,5 @@ De belangrijkste bestanden voor de lassie app zijn de volgende:
  Dit wordt afgesproken in de taakverdeling. Als dit niet duidelijk is -> vraag Sander.
  
 ### Hoe koppel ik Android Studio aan de Github repo?
- Klik op VCS -> Enable version Control Integration -> Git. Om de files te updaten, klik op VCS -> Update project. Om te 
+ Allereerst, download de github tools: https://git-scm.com/download/win. Klik vervolgens op VCS -> Enable version Control Integration -> Git. Om de files te updaten, klik op VCS -> Update project. Om te 
  comitten, klik op VCS -> Commit changes.
