@@ -16,4 +16,5 @@
     <string name="title_activity_main">MainActivity</string>
     <string name="button_vermist">Vermist</string>
     <string name="button_gevonden">Gevonden</string>
+    <string name="button_plaats_bericht">Plaats bericht</string>
 </resources>

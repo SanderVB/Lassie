@@ -2,36 +2,62 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="horizontal"
+    android:weightSum="2"
     tools:context="lassie.lassie.MainActivity">
 
-    <ToggleButton
-        android:id="@+id/button_vermist"
+    <Button
+        android:id="@+id/button_plaats_bericht"
         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:text="@string/button_plaats_bericht" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button_plaats_bericht"
+        android:layout_marginTop="25dp"
+        android:background="@android:color/darker_gray" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
-        android:background="@drawable/button_gevonden"
-        android:checked="true"
-        android:clickable="true"
-        android:elegantTextHeight="false"
-        android:enabled="true"
-        android:longClickable="false"
-        android:textOff="@string/button_vermist"
-        android:textOn="@string/button_vermist" />
+        android:orientation="horizontal">
 
-    <ToggleButton
-        android:id="@+id/button_gevonden"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/button_vermist"
-        android:layout_alignParentEnd="true"
-        android:layout_marginEnd="56dp"
-        android:background="@drawable/button_vermist"
-        android:textOff="@string/button_gevonden"
-        android:textOn="@string/button_gevonden" />
+        <ToggleButton
+            android:id="@+id/button_vermist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="0sp"
+            android:layout_weight="1"
+            android:background="@drawable/button_gevonden"
+            android:checked="true"
+            android:clickable="true"
+            android:enabled="true"
+            android:longClickable="false"
+            android:onClick="Switch"
+            android:textOff="@string/button_vermist"
+            android:textOn="@string/button_vermist" />
+
+        <ToggleButton
+            android:id="@+id/button_gevonden"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:background="@drawable/button_vermist"
+            android:checked="true"
+            android:clickable="true"
+            android:onClick="Switch"
+            android:textOff="@string/button_gevonden"
+            android:textOn="@string/button_gevonden" />
+    </LinearLayout>
 
 </RelativeLayout>

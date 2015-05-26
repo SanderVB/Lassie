@@ -6,6 +6,7 @@ import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.TextView;
 import android.widget.ToggleButton;
 
@@ -57,5 +58,16 @@ public class MainActivity extends ActionBarActivity {
 
     private void openSettings() {
 
+    }
+
+    public void Switch(View view) {
+        ToggleButton vermist = (ToggleButton) findViewById(R.id.button_vermist);
+        ToggleButton gevonden = (ToggleButton) findViewById(R.id.button_gevonden);
+        if (view == gevonden) {
+            vermist.toggle();
+        }
+        if (view == vermist) {
+            gevonden.toggle();
+        }
     }
 }
