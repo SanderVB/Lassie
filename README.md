@@ -21,7 +21,7 @@ De belangrijkste bestanden voor de lassie app zijn de volgende:
   * Kies goede namen voor id's en strings. In activity_home.xml is dit bijvoorbeeld "@id/edittext_email" voor de editText van de email. Houdt het dus leesbaar!
   
 ## Enkele guidelines conform design
- * DE BELANGRIJKSTE: CONTROLEER ALTIJD JE CODE VOORDAT JE IETS COMMIT. Als je dit niet doen, gaat iemand anders dus verder met 
+ * DE BELANGRIJKSTE: CONTROLEER ALTIJD JE CODE VOORDAT JE IETS COMMIT. Als je dit niet doet, gaat iemand anders dus verder met 
  jouw gepruts.
  * Gebruik verschillende formaten voor de drawables (mdpi, hdpi, xhdpi en xxhdpi vereist). xxxhdpi is handig maar niet noodzakelik.
  Plaatjes kunnen eenvoudig naar drawables worden geconverteerd (incl alle formaten en de juiste namen) met Android asset studio:
