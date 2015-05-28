@@ -17,4 +17,20 @@
     <string name="button_vermist">Vermist</string>
     <string name="button_gevonden">Gevonden</string>
     <string name="button_plaats_bericht">Plaats bericht</string>
+    <string name="menu_open">Drawer open</string>
+    <string name="menu_gesloten">Drawer close</string>
+    <string name="textview_profiel">Bekijk profiel</string>
+    <string name="contentdescription_logo">Logo</string>
+
+    <!-- Menu items -->
+    <string-array name="menu_items">
+        <item>Home</item>
+        <item>Mijn overzicht</item>
+        <item>Plaats bericht vermissing</item>
+        <item>Plaats bericht gevonden dier</item>
+        <item>Lijst/kaart vermissingen</item>
+        <item>Gebruikerspagina</item>
+        <item>Notificaties</item>
+        <item>Instellingen</item>
+    </string-array>
 </resources>

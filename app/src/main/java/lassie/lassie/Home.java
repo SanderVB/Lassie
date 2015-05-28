@@ -59,5 +59,4 @@ public class Home extends ActionBarActivity {
         intent.putExtra(gebruikersnaammessage, gebruikersnaamgegevens);
         startActivity(intent);
     }
-
 }
